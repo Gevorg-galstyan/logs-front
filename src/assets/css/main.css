@@ -1,0 +1,39 @@
+body {
+    position: relative;
+    height: 100vh;
+    background: #fff;
+    transition: color .5s, background-color .5s;
+    font: 500 18px/24px Roboto,sans-serif, Helvetica Neue, sans-serif;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    place-items: center;
+    color: #212121;
+}
+
+input{
+    height: 38px;
+    padding: 0 0 0 14px;
+    width: 100%;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    background-color: #fff;
+    outline: 0;
+    font: inherit;
+    font-size: 13px;
+}
+
+.error {
+    font-weight: 500;
+    color: #f44336;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.main-section {
+    overflow: hidden;
+    height: 100vh;
+}
